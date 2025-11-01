@@ -6,7 +6,11 @@
 local M = {}
 
 M.base46 = {
-	theme = "onedark",
+	theme = "doomchad",
+
+  hl_override = {
+    LspSignatureActiveParameter = { italic = true, fg = "light_grey" },
+  },
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
